@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/sever.js"
+    "dev": "node --watch src/sever.js",
+    "start": "node src/sever.js"
   },
   "keywords": [],
-  "type" :  "module",
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -16,6 +17,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "lovink-app": "file:..",
     "mongoose": "^8.10.1"
   }
 }
